@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dangki</title>
+    <link rel="stylesheet" href="taikhoan.css">
+</head>
+<body>
+   <!--hàng 1-->
+   <div class="hang1"> 
+
+</div> 
+
+<!--Hàng2-->
+<div class="hang2"> 
+    <img src="img/logo1.png" alt="">
+</div> 
+
+<!--Hàng3-->
+<div class="hang3"> 
+    <div class="bentrai"></div>
+    <div class="ogiua">
+        <div class="bentren"></div>
+        <div class="form">
+            <h1>ĐĂNG KÍ</h1> <br>
+
+           
+            <input type="text" name="name" placeholder="Tên truy cập" /> <br/><br/>
+           
+            
+            <label>
+            <input name="password" id="password" type="password" placeholder="Mật khẩu"  />
+            </label>
+            <br/><br/>
+            <label>
+            <input type="password" name="confirm_password" id="confirm_password" placeholder="Nhập lại mật khẩu" onkeyup='check();'  /><br/>
+            <span id="message"></span>
+            </label>  
+            
+            <br/>
+            <input type="text" name="text" placeholder="Email"  > <br/>
+            <span>Bạn cần sử dụng email này trong trường hợp cần đặt lại mật khẩu</span> <br/><br/>
+
+            <select>
+                <option>VN +84</option>
+                <option>VE +58</option>
+                <option>ZW +263</option>
+                <option>UV +38</option>
+                <option>IK +14</option>
+                <option>TV +28</option>
+                <option>UW +23</option>
+                <option>HJ +31</option>
+                <option>VN +84</option>
+                <option>VE +58</option>
+                <option>ZW +263</option>
+                <option>UV +38</option>
+                <option>IK +14</option>
+                <option>TV +28</option>
+                <option>UW +23</option>
+                <option>HJ +31</option>
+            </select>
+            <input id="db1" type="text" name="text" placeholder="Số điện thoại"  > <br> <br>
+
+            <select id="db2">
+                <option>Viet Nam (Việt Nam)</option>
+                <option>Zimbabwe</option>
+                <option>Vanuatu</option>
+                <option>Vatican City</option>
+                <option>Venezuela</option>
+                <option>United Kingdom</option>
+                <option>Uongda</option>
+                <option>Togo</option>
+                <option>Tonga</option>
+                <option>Tunisia</option>
+                <option>Viet Nam (Việt Nam)</option>
+                <option>Zimbabwe</option>
+                <option>Vanuatu</option>
+                <option>Vatican City</option>
+                <option>Venezuela</option>
+                <option>United Kingdom</option>
+                <option>Uongda</option>
+                <option>Togo</option>
+                <option>Tonga</option>
+                <option>Tunisia</option>
+            </select><br><br>
+
+            <input id="db3" type="checkbox" value="Nhac" name="chk"  />Tôi đồng ý với <a href="dieukhoandichvu.html">Điều Khoản Dịch Vụ</a>  và <a href="chinhsachbaomat.html">Chính Sách Bảo Mật</a> <br>
+            <p class="Vaodn">Đã có tài khoản <a href="Dangnhap.html">Đăng nhập</a></p><br><br>
+            <button id="db4" type="button" onclick="myFunction()">Đăng kí</button>
+            <li id="demo"></li>
+        </div>
+        <div class="benduoi"></div>
+   </div> 
+   <div class="benphai"></div>
+</div>
+    
+<script>
+	var check = function() {
+		if (document.getElementById('password').value ==
+		document.getElementById('confirm_password').value) {
+		document.getElementById('message').style.color = 'green';
+		document.getElementById('message').innerHTML = 'trùng khớp';
+		}
+		else {
+		document.getElementById('message').style.color = 'red';
+		document.getElementById('message').innerHTML = 'mật khẩu không trùng khớp';
+		}
+	}
+	 	 function myFunction() 
+		{ 
+			var x =   
+                document.getElementById("text").value; 
+             if(x=="")
+			{document.getElementById( 
+              "demo").innerHTML ="Vui lòng nhập thông tin!"; }
+			else
+			  {
+			  document.getElementById( 
+              "demo").innerHTML ="Bạn đã đăng ký thành công!";  
+			  }
+        } 
+	</script>
+
+</body>
+</html>

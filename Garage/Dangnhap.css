@@ -1,0 +1,90 @@
+.hang1{
+    background-color: rgb(196, 36, 36);
+    width: 100%;
+    height: 10px;
+}
+.hang2{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+}
+    .hang2 img{
+        margin: 5px 680px 0px 680px;
+        width: 180px;
+        height: 90px;
+    }
+
+/*Hàng3*/
+.hang3{
+    padding-top: 20px;
+    display: flex;     
+    margin: auto;
+    width: 1300px ;
+    height: 1000px; 
+}
+.bentrai{
+    background-color:  rgb(202, 196, 196);
+    width: 400px;
+    height: 1000px;   
+}
+.benphai{
+    background-color:   rgb(202, 196, 196);
+    width: 400px;
+    height: 1000px;
+    margin-right: 0px;
+}
+.ogiua{
+    width: 500px;
+    height: 1000px;
+    background-color:  rgb(202, 196, 196);
+}
+   .bentren{
+       height: 100px;      
+    }
+    .form{
+        background-color: white;
+        height: 700px;       
+    }
+    .benduoi{
+        height: 200px;
+     }
+
+    /*******/
+    .form h1{
+        padding-top: 40px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+
+    }
+         .form input{
+             margin-left: 70px;
+             width: 320px;
+             height: 34px;
+         }
+         
+        #db3{
+            margin-left: 80px;
+            width: 350px;
+            height: 35px;
+            background-color: red;
+            color:white;
+        }
+        #db44{
+            text-decoration: none;
+            color:white;
+        }
+        #db4 {
+           
+            margin-left: 80px;
+            width: 350px;
+            height: 35px;
+            background-color: red;
+           
+        }
+        #vd{
+            margin-left: 250px;
+        }
+        #db55{
+            margin-left: 220px;
+        }

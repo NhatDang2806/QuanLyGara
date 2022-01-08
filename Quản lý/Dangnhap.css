@@ -1,0 +1,223 @@
+.mediaViewInfo {
+	--web-view-name: Dangnhap;
+	--web-view-id: Dangnhap;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Dangnhap;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Dangnhap {
+	position: absolute;
+	width: 1500px;
+	height: 888px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Dangnhap;
+	--web-view-id: Dangnhap;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Image_29 {
+	position: absolute;
+	width: 1520px;
+	height: 950px;
+	left: 0px;
+	top: -62px;
+	overflow: visible;
+}
+#Rectangle_6 {
+	opacity: 0.57;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 648px;
+	height: 424px;
+	left: 157px;
+	top: 58px;
+}
+#ng_nhp_h_thng {
+	left: 307px;
+	top: 87px;
+	position: absolute;
+	overflow: visible;
+	width: 349px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(11,16,20,1);
+}
+#GARAGE__T_PHT_TI {
+	filter: drop-shadow(100px 40px 6px rgba(35, 10, 10, 0.161)) blur(0px);
+	left: 874px;
+	top: 102px;
+	position: absolute;
+	overflow: visible;
+	width: 577px;
+	white-space: nowrap;
+	line-height: 91px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 87px;
+	color: rgba(11,16,20,1);
+}
+#Rectangle_26 {
+	fill: rgba(51,73,81,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_26 {
+	position: absolute;
+	overflow: visible;
+	width: 588px;
+	height: 63px;
+	left: 187px;
+	top: 168px;
+}
+#Rectangle_27 {
+	fill: rgba(51,73,81,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_27 {
+	position: absolute;
+	overflow: visible;
+	width: 588px;
+	height: 63px;
+	left: 187px;
+	top: 256px;
+}
+#Tn_ti_khon {
+	left: 203px;
+	top: 183px;
+	position: absolute;
+	overflow: visible;
+	width: 159px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#M_nhn_vin {
+	left: 203px;
+	top: 271px;
+	position: absolute;
+	overflow: visible;
+	width: 160px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Component_12__1 {
+	position: absolute;
+	width: 245px;
+	height: 96px;
+	left: 359px;
+	top: 345px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Quanlynhanvien.html;
+	cursor: pointer;
+}
+#Rectangle_33 {
+	fill: rgba(51,73,81,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_33 {
+	position: absolute;
+	overflow: visible;
+	width: 245px;
+	height: 78px;
+	left: 0px;
+	top: 0px;
+}
+#ng_nhp_ {
+	left: 43px;
+	top: 14px;
+	position: absolute;
+	overflow: visible;
+	width: 161px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+#Rectangle_29 {
+	fill: rgba(51,73,81,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_29 {
+	position: absolute;
+	overflow: visible;
+	width: 458px;
+	height: 63px;
+	left: 960px;
+	top: 780px;
+}
+#in_thoi_h_tr__1900571529_ {
+	left: 998px;
+	top: 792px;
+	position: absolute;
+	overflow: visible;
+	width: 387px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
